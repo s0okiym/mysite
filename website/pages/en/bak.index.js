@@ -76,7 +76,7 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('1.svg')} />
+        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
@@ -104,13 +104,13 @@ const Features = props => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('2.svg'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
         title: 'Feature One',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('3.svg'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
         title: 'Feature Two',
       },
@@ -132,7 +132,7 @@ const LearnHow = props => (
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('4.svg'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Learn How',
       },
@@ -145,7 +145,7 @@ const TryOut = props => (
     {[
       {
         content: 'Talk about trying this out',
-        image: imgUrl('5.svg'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -158,7 +158,7 @@ const Description = props => (
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('6.svg'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Description',
       },
